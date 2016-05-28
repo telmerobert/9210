@@ -1,0 +1,32 @@
+
+Differences between Ant and                            Maven
+--------------------------------------------------------------------------
+1) Ant is procedural                  Maven is declarative 
+2) Ant tasks are not reusable         Maven goals are reusable
+3) Ant does not have any lifecycle    Maven has a lifecycle
+4) Ant is build tool                  Maven is Project management as well as build tool
+5) Ant uses build.xml                 Maven used POM.xml(project object model)
+6) Ant do not uses folder structure   Maven maintains folder structure
+
+if you want build your code you have to execute ant command explicitly.
+
+POM.xml
+------------------------
+<Project>
+<modelversion>4.0.0</modelversion>
+<groupId>com.ibm.myapp</groupId>
+<artifactId>webapp</artifactId>
+<version>1.0</version>
+<Dependencies>
+<dependency>
+<groupId>selenium</groupid>
+<artifactId>selenium</artifactId>
+<version>4.8.2</version?
+</dependency>
+</dependencies>
+</project>
+
+
+
+Today we will discuss about the maven download and its installation.
+
